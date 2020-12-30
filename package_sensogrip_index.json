@@ -1,0 +1,58 @@
+{
+  "packages": [
+    {
+      "name": "sensogrip",
+      "maintainer": "Primoz Flander",
+      "websiteURL": "http://www.arduino.cc/",
+      "email": "packages@arduino.cc",
+      "help": {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms": [
+        {
+          "name": "Sensogrip Boards (NINA B306)",
+          "architecture": "mbed",
+          "version": "1.0",
+          "category": "Contributed",
+          "url": "https://github.com/primozflander/custom_boards/tree/master/sensogrip_boards_1.0.zip",
+          "archiveFileName": "sensogrip_boards_1.0.zip",
+          "checksum": "SHA-256:379ed0089da6aef38ab6118564d5851893fd6f3bcca56e6001eada3013191844",
+          "size": "77711879",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "SensoGrip NINA B306"
+            },
+            {
+              "name": "Dev NINA B306"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino12"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino1"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino2",
+              "name": "dfu-util"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
