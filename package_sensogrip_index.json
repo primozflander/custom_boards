@@ -14,10 +14,10 @@
           "architecture": "mbed",
           "version": "1.0",
           "category": "Contributed",
-          "url": "https://github.com/primozflander/custom_boards/tree/master/sensogrip_boards_1.0.zip",
+          "url": "https://raw.githubusercontent.com/primozflander/custom_boards/master/sensogrip_boards_1.0.zip",
           "archiveFileName": "sensogrip_boards_1.0.zip",
           "checksum": "SHA-256:379ed0089da6aef38ab6118564d5851893fd6f3bcca56e6001eada3013191844",
-          "size": "77711879",
+          "size": "77711719",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
