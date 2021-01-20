@@ -1,4 +1,4 @@
-# custom_boards
+# sensogrip_custom_boards
 
 Repository consists of board definitions for Sensogrip pencil.
 
